@@ -1,8 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import Titulo from './components/titulo'
-import { Items } from './components/items'
+import { Items } from './components/itemList'
+import { Navb } from './components/navBar'
 import './App.css'
 
 
@@ -15,6 +14,10 @@ function App() {
       <div className="tPrin">
         <Titulo titulo="Centro de ropa"/>
       </div>  
+
+      <div>
+       <Navb/>
+      </div>
 
       <div>
         <Items/>
